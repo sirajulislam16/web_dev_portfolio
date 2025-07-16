@@ -25,6 +25,9 @@
     border-radius: 5px;
     border: none;
 }
+.secondary-bg{
+    background-color: #fff8f3;
+}
 
 /* header */
 .header{
@@ -74,6 +77,8 @@ nav ul li{
  .banner_title{
     font-weight: bold;
     font-size: 85px;
+    top: 363px;
+    left: 230px;
  }
  .banner-profile-pic{
     width: 580px;
@@ -93,3 +98,33 @@ nav ul li{
     margin-top: 20px;
  }
 
+ /* main-style */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ /* section-style */
+
+ .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818 ;
+ }
+ .section-description{
+    font-size: 18px;
+    color: #757575;
+ }
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
